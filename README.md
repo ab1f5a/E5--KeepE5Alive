@@ -1,6 +1,13 @@
-# Usage
+# 食用方法
 
-Set the following repo secrets, disable the security defaults of your E5 admin accounts, then trigger `Register APP` workflow manually. Read [The Intro](https://logi.im/script/permanently-keeping-an-office-e5-account.html) for step by step instructions.
+| 名称   | 内容                                                               |
+| -----  | ----------------------------------------------------------------- |
+| PAT    | 有“workflow”权限的Github Token                                     |
+| USER   | E5管理员账号（不要添加任何其他字符）                                 |
+| PASSWD | E5管理员密码（不要添加任何其他字符）                                 |
+
+
+# Usage
 
 | Name   | Value                                                             |
 | ------ | ----------------------------------------------------------------- |
@@ -8,4 +15,4 @@ Set the following repo secrets, disable the security defaults of your E5 admin a
 | USER   | E5 admin emails line separated, no leading and trailing spaces    |
 | PASSWD | E5 admin passwords line separated, no leading and trailing spaces |
 
-<right><p align="right"><code>version@202403100522</code></p></right>
+
